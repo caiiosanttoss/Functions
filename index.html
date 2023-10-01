@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+// 1. Função tradicional com a palavra reservada "function" e sem nenhum parâmetro
+function exibirInstrucoes() {
+    console.log("Bem-vindo à Calculadora!");
+    console.log("Para somar, chame a função somar(valor1, valor2).");
+    console.log("Para multiplicar, chame a função multiplicar(valor1, valor2).");
+}
+
+// 2. Função tradicional com parâmetros e um retorno de valor
+function somar(a, b) {
+    return a + b;
+}
+
+// 3. Arrow function com parâmetros e retorno de valor
+const multiplicar = (a, b) => a * b;
+
+// Programa Principal
+function iniciarCalculadora() {
+    exibirInstrucoes();
+
+    let numero1 = 5;
+    let numero2 = 10;
+
+    console.log(`Soma de ${numero1} e ${numero2} é:`, somar(numero1, numero2));
+    console.log(`Multiplicação de ${numero1} e ${numero2} é:`, multiplicar(numero1, numero2));
+}
+
+// Iniciando o programa de calculadora
+iniciarCalculadora();
+
+
+    </script>
+</body>
+</html>
