@@ -1,0 +1,17 @@
+.btn {
+
+   color: rgb(245, 237, 237); 
+   border: solid rgb(8, 8, 8);
+   background-color: rgb(13, 13, 14);
+   size: 2rem;
+   font-size: 2rem;
+}
+
+.input {
+    color: rgb(245, 237, 237); 
+    border: solid rgb(15, 15, 14);
+    background-color: rgb(5, 5, 5);
+    size: 2rem;
+
+    font-size: 1rem;
+}
